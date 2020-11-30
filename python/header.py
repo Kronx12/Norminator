@@ -31,4 +31,5 @@ def get_header(name, i):
 	header.append("/*   Updated: " + modification_date +" by " + login + (18 - len(login) - 1) * " " + "###   ########lyon.fr   */")
 	header.append("/* " + " " * 74 + " */")
 	header.append("/* " + "*" * 74 + " */")
+	header.append("")
 	return header
